@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header'
 import Ref from './components/9.Ref'
+import State from './components/10.State'
 
 class App extends Component {
   constructor(props) {
@@ -60,6 +61,8 @@ class App extends Component {
         <Header/>
 
         <Ref/>
+
+        <State/>
   
         <button className="btn-danger" onClick={this.onClick}>Click me</button>
 
